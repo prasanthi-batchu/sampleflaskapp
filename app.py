@@ -16,5 +16,9 @@ def test():
 def new_route():
    return 'new route...'
 
+@app.route('/test_user')
+def hello_world():
+   return 'Hello test user..'
+
 if __name__ == '__main__':
    app.run(host='0.0.0.0')
