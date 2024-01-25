@@ -8,9 +8,6 @@ def hello_world():
    return 'Hello World..'
 
 
-@app.route('/test')
-def test():
-   return 'Testttttttt..'
 
 @app.route('/gani')
 def gani():
