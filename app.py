@@ -17,6 +17,10 @@ def gani():
 def new_route():
    return 'Hello This is new Route..'
 
+@app.route('/new_route_last')
+def new_route_last():
+   return 'Hello This is new Route last..'
+
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0')
