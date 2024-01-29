@@ -15,7 +15,7 @@ def gani():
 
 @app.route('/new_route')
 def new_route():
-   return 'Hello This is new Route..'
+   return 'Hello This is new Route....'
 
 
 
