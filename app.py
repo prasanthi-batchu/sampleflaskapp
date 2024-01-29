@@ -13,9 +13,9 @@ def hello_world():
 def gani():
    return 'Hello Ganiii..'
 
-@app.route('/new_route')
-def new_route():
-   return 'Hello This is new Route....'
+# @app.route('/new_route')
+# def new_route():
+#    return 'Hello This is new Route....'
 
 
 
