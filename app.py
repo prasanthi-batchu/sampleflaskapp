@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/gani')
 def gani():
-   return 'Hello Ganiii..'
+   return 'Hello Ganiii ganishka..'
 
 @app.route('/new_route')
 def new_route():
